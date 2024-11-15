@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="lab7.css" rel="stylesheet">
+    <script src="lab7Script.js"></script>
+
+</head>
+
+<body>
+
+    <p>Spencer Gosselin - 300395410 - Lab 7</p>
+
+    <form name="calcBox">
+        <fieldset>
+            <legend>
+                Calculator Output
+            </legend>
+            <textarea name="Text" id="textarea" rows="4" cols="24"></textarea>
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Input</legend>
+
+            Operands: &nbsp;
+            <input type="text" name="num1" id="num1" size="3" maxlength="3">
+            <label>&nbsp;&nbsp;</label>
+            <input type="text" name="num2" id="num2" size="3" maxlength="3">
+
+
+            Operator: &nbsp;
+            <input type="button" name="+" id="addButton" value="+" onclick="addition()">
+            <input type="button" name="-" id="subButton" value="-" onclick="subtract()">
+            <input type="button" name="*" id="mulButton" value="&times;" onclick="multiply()">
+            <input type="button" name="/" id="divButton" value="&divide;" onclick="divide()">
+            <input type="reset" value="clear">
+        </fieldset>
+
+
+    </form>
+
+    <footer>
+
+    </footer>
+
+</body>
+
+</html>
